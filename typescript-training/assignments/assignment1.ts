@@ -40,8 +40,10 @@ console.log(`9. Person's favourite colour: "${favouriteColor}"`)
 
 //10.Current year: 2023
 let currentDate = new Date();
-console.log(currentDate);
-console.log(currentDate.getFullYear());
+//console.log(currentDate);
+//console.log(currentDate.getFullYear());
+console.log(`10.Current year: ${currentDate.getFullYear()}`);
+
 
 //11.Number of followers on a social media platform: 1,000,000
 let numOfFollowers : string = "1,000,000";
