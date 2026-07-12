@@ -31,9 +31,8 @@ let coordinates : number[] = [37.7749, -122.4194];
 console.log("6. Coordinates of a location (latitude, longitude):", coordinates[0], "," ,coordinates[1]);
 
 //7. Person's marital status: true or false
-let married : boolean = true;
-let unmarried : boolean = false;
-console.log("7. Person's marital status:", married,"or",unmarried)
+let married : boolean[] = [true , false];
+console.log("7. Person's marital status:", married[0],"or",married[1])
 
 //8. Person's occupation: "Software Engineer"
 let occupation : string = "Software Engineer";
